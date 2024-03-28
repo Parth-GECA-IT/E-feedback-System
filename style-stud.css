@@ -100,7 +100,20 @@ textarea {
     width: 100%;
     resize: vertical;
 }
-
+.dropdwn {
+    display: flex;
+}
+.course {
+    margin-top: 30px;
+    position: absolute;
+    right: 60px;
+    margin-right: auto;
+}
+.instructor {
+    margin-top: 30px;
+    position: absolute;
+    right: 80px;
+}
 .dropbtn {
     background-color: #04AA6D;
     color: white;
