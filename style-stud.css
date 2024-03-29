@@ -74,6 +74,7 @@ label {
 .rate:not(:checked)>label:hover,
 .rate:not(:checked)>label:hover~label {
     color: #deb217;
+    scale: 1.25;
 }
 
 .rate>input:checked+label:hover,
@@ -153,4 +154,16 @@ textarea {
 
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
+}
+
+@media screen and (max-width:450px) {
+    .heading1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .dropbtn {
+        font-size: 10px;
+    }
 }
