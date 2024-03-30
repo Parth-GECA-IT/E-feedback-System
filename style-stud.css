@@ -7,7 +7,7 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     color: #000000;
-    /* text-shadow: 8px 4px 0.1em rgb(255, 125, 125), 8px 5px 0.25em rgb(131, 131, 254);*/
+    text-shadow: 8px 4px 0.8em rgb(255, 125, 125), 8px 5px 0.25em rgb(131, 131, 254);
 }
 .h2 {
     display: flex;
@@ -117,25 +117,23 @@ textarea {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    /* border: 2px solid red; */
 }
 .inst-class{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    /* border: 2px solid red; */
 }
-.course {
-    /* margin-top: 30px;
+/* .course {
+    margin-top: 30px;
     position: absolute;
     right: 60px;
-    margin-right: auto; */
+    margin-right: auto;
 }
 .instructor {
-    /* margin-top: 30px;
+    margin-top: 30px;
     position: absolute;
-    right: 80px; */
-}
+    right: 80px;
+} */
 .dropbtn {
     background-color: #04AA6D;
     color: white;
