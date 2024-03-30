@@ -4,10 +4,16 @@ body {
 }
 
 .heading1  {
-    font-family: Algerian ,Arial, sans-serif;
+    font-family: Arial, sans-serif;
     text-align: center;
-    color: #096644;
-    text-shadow: 8px 4px 0.1em rgb(255, 125, 125), 8px 5px 0.25em rgb(131, 131, 254);}
+    color: #000000;
+    /* text-shadow: 8px 4px 0.1em rgb(255, 125, 125), 8px 5px 0.25em rgb(131, 131, 254);*/
+}
+.h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -103,17 +109,32 @@ textarea {
 }
 .dropdwn {
     display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.coures-class{
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+}
+.inst-class{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
 }
 .course {
-    margin-top: 30px;
+    /* margin-top: 30px;
     position: absolute;
     right: 60px;
-    margin-right: auto;
+    margin-right: auto; */
 }
 .instructor {
-    margin-top: 30px;
+    /* margin-top: 30px;
     position: absolute;
-    right: 80px;
+    right: 80px; */
 }
 .dropbtn {
     background-color: #04AA6D;
@@ -121,11 +142,6 @@ textarea {
     padding: 16px;
     font-size: 16px;
     border: none;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
 }
 
 .dropdown-content {
