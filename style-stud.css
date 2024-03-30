@@ -3,17 +3,18 @@ body {
     background-color: rgb(219, 238, 255);
 }
 
-.heading1  {
+.heading1 {
     font-family: Arial, sans-serif;
     text-align: center;
     color: #000000;
     text-shadow: 8px 4px 0.8em rgb(255, 125, 125), 8px 5px 0.25em rgb(131, 131, 254);
 }
+
 .h2 {
     display: flex;
     justify-content: center;
-    text-align: center;
 }
+
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -32,6 +33,12 @@ body {
 
 label {
     font-weight: bold;
+}
+
+.rtgheading {
+    margin-bottom: 0.6em;
+    font-weight: 600;
+    font-size: 1.2em;
 }
 
 .star-rating input[type="radio"] {
@@ -107,22 +114,26 @@ textarea {
     width: 100%;
     resize: vertical;
 }
+
 .dropdwn {
     display: flex;
     justify-content: space-around;
     margin: 20px;
 }
-.coures-class{
+
+.coures-class {
     height: 15vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
-.inst-class{
+
+.inst-class {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
+
 /* .course {
     margin-top: 30px;
     position: absolute;
@@ -174,9 +185,11 @@ textarea {
     .heading1 {
         font-size: 1.5em;
     }
+
     h2 {
         font-size: 20px;
     }
+
     .dropbtn {
         font-size: 10px;
     }
