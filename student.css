@@ -4,7 +4,7 @@ body {
     padding: 20px;
     width: 65vw;
     margin: 0 auto;
-    background-color: #002d29;
+    /* background-color: #000; */
 
     /* background-image: url("https://cdn.pixabay.com/animation/2023/01/24/23/10/23-10-04-56_256.gif");
     object-fit: fill;
@@ -20,9 +20,11 @@ body {
     border: 1px solid #ddd;
     padding: 20px;
     border-radius: 5px;
+    box-shadow: 0 0 30px 8px black;
+    /* box-shadow: 0 0 30px 8px rgb(255, 255, 255); */
 }
 
-.feedback-form h2 {
+.feedback-form h1 {
     text-align: center;
     margin-bottom: 15px;
 }
@@ -110,7 +112,7 @@ body {
 
 .label3 {
     top: 4vh;
-    left: 25vw;
+    left: 30vw;
 }
 
 .label4 {
@@ -120,7 +122,7 @@ body {
 
 .label5 {
     top: 4vh;
-    left: 53vw;
+    left: 54vw;
 }
 
 label {
