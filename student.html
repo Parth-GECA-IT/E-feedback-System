@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback System</title>
+    <link rel="stylesheet" href="student.css">
+</head>
+
+<body>
+    <div class="feedback-form">
+        <h2>Student Feedback Form</h2>
+        <form id="feedback-form">
+            <div class="dropdwn">
+                <div class="coures-class">
+                    <label for="course" >Course:</label>
+                    <div class="course dropdown">
+                        <button class="dropbtn">Course list</button>
+                        <div class="dropdown-content">
+                            <a href="#">Course 1</a>
+                            <a href="#">Course 2</a>
+                            <a href="#">Course 3</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="inst-class">
+                    <label for="instructor">Instructor:</label>
+                    <div class="instructor dropdown">
+                        <button class="dropbtn">Faculty list</button>
+
+                        <div class="dropdown-content">
+                            <a href="#">Faculty 1</a>
+                            <a href="#">Faculty 2</a>
+                            <a href="#">Faculty 3</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="question">
+                <label for="q1">Q.1 Has the Teacher covered the entire Syllabus as prescribed by University College
+                    Board?</label>
+                <div class="rating-container">
+                    <input type="radio" id="q1-1" name="q1" value="1">
+                    <label for="q1-1">1</label>
+                    <div class="label1">Strongly Disagree</div>
+                    <input type="radio" id="q1-2" name="q1" value="2">
+                    <label for="q1-2">2</label>
+                    <div class="label2">Disagree</div>
+                    <input type="radio" id="q1-3" name="q1" value="3">
+                    <label for="q1-3">3</label>
+                    <div class="label3">Neither Agree nor Disagree</div>
+                    <input type="radio" id="q1-4" name="q1" value="4">
+                    <label for="q1-4">4</label>
+                    <div class="label4">Agree</div>
+                    <input type="radio" id="q1-5" name="q1" value="5">
+                    <label for="q1-5">5</label>
+                    <div class="label5">Strongly Agree</div>
+                </div>
+            </div>
+            <div class="question">
+                <label for="q2">Q.2 Has the Teacher covered relevant topics beyond syllabus?</label>
+                <div class="rating-container">
+                    <input type="radio" id="q2-1" name="q2" value="1">
+                    <label for="q2-1">1</label>
+                    <div class="label1">Strongly Disagree</div>
+                    <input type="radio" id="q2-2" name="q2" value="2">
+                    <label for="q2-2">2</label>
+                    <div class="label2">Disagree</div>
+                    <input type="radio" id="q2-3" name="q2" value="3">
+                    <label for="q2-3">3</label>
+                    <div class="label3">Neither Agree nor Disagree</div>
+                    <input type="radio" id="q2-4" name="q2" value="4">
+                    <label for="q2-4">4</label>
+                    <div class="label4">Agree</div>
+                    <input type="radio" id="q2-5" name="q2" value="5">
+                    <label for="q2-5">5</label>
+                    <div class="label5">Strongly Agree</div>
+                </div>
+            </div>
+            <div class="question">
+                <label for="q2">Q.3 Effectiveness of Teacher in terms of: Technical content/course content,
+                    Communication skills, Use of teaching aids</label>
+                <div class="rating-container">
+                    <input type="radio" id="q3-1" name="q3" value="1">
+                    <label for="q3-1">1</label>
+                    <div class="label1">Strongly Disagree</div>
+                    <input type="radio" id="q3-2" name="q3" value="2">
+                    <label for="q3-2">2</label>
+                    <div class="label2">Disagree</div>
+                    <input type="radio" id="q3-3" name="q3" value="3">
+                    <label for="q3-3">3</label>
+                    <div class="label3">Neither Agree nor Disagree</div>
+                    <input type="radio" id="q3-4" name="q3" value="4">
+                    <label for="q3-4">4</label>
+                    <div class="label4">Agree</div>
+                    <input type="radio" id="q3-5" name="q3" value="5">
+                    <label for="q3-5">5</label>
+                    <div class="label5">Strongly Agree</div>
+                </div>
+            </div>
+            <div class="question">
+                <label for="q2">Q.4 Pace on which contents were covered?</label>
+                <div class="rating-container">
+                    <input type="radio" id="q4-1" name="q4" value="1">
+                    <label for="q4-1">1</label>
+                    <div class="label1">Strongly Disagree</div>
+                    <input type="radio" id="q4-2" name="q4" value="2">
+                    <label for="q4-2">2</label>
+                    <div class="label2">Disagree</div>
+                    <input type="radio" id="q4-3" name="q4" value="3">
+                    <label for="q4-3">3</label>
+                    <div class="label3">Neither Agree nor Disagree</div>
+                    <input type="radio" id="q4-4" name="q4" value="4">
+                    <label for="q4-4">4</label>
+                    <div class="label4">Agree</div>
+                    <input type="radio" id="q4-5" name="q4" value="5">
+                    <label for="q4-5">5</label>
+                    <div class="label5">Strongly Agree</div>
+                </div>
+            </div>
+            <div class="question">
+                <label for="q2">Q.5 Motivation and inspiration for students to Learn?</label>
+                <div class="rating-container">
+                    <input type="radio" id="q5-1" name="q5" value="1">
+                    <label for="q5-1">1</label>
+                    <div class="label1">Strongly Disagree</div>
+                    <input type="radio" id="q5-2" name="q5" value="2">
+                    <label for="q5-2">2</label>
+                    <div class="label2">Disagree</div>
+                    <input type="radio" id="q5-3" name="q5" value="3">
+                    <label for="q5-3">3</label>
+                    <div class="label3">Neither Agree nor Disagree</div>
+                    <input type="radio" id="q5-4" name="q5" value="4">
+                    <label for="q5-4">4</label>
+                    <div class="label4">Agree</div>
+                    <input type="radio" id="q5-5" name="q5" value="5">
+                    <label for="q5-5">5</label>
+                    <div class="label5">Strongly Agree</div>
+                </div>
+            </div>
+            <div class="question">
+                <label for="q2">Q.6 Support for the development of Students' Skill: Practical demonstration, Hands on
+                    training</label>
+                <div class="rating-container">
+                    <input type="radio" id="q6-1" name="q6" value="1">
+                    <label for="q6-1">1</label>
+                    <div class="label1">Strongly Disagree</div>
+                    <input type="radio" id="q6-2" name="q6" value="2">
+                    <label for="q6-2">2</label>
+                    <div class="label2">Disagree</div>
+                    <input type="radio" id="q6-3" name="q6" value="3">
+                    <label for="q6-3">3</label>
+                    <div class="label3">Neither Agree nor Disagree</div>
+                    <input type="radio" id="q6-4" name="q6" value="4">
+                    <label for="q6-4">4</label>
+                    <div class="label4">Agree</div>
+                    <input type="radio" id="q6-5" name="q6" value="5">
+                    <label for="q6-5">5</label>
+                    <div class="label5">Strongly Agree</div>
+                </div>
+            </div>
+            <div class="question">
+                <label for="q2">Q.7 Clarity of expectations of students</label>
+                <div class="rating-container">
+                    <input type="radio" id="q7-1" name="q7" value="1">
+                    <label for="q7-1">1</label>
+                    <div class="label1">Strongly Disagree</div>
+                    <input type="radio" id="q7-2" name="q7" value="2">
+                    <label for="q7-2">2</label>
+                    <div class="label2">Disagree</div>
+                    <input type="radio" id="q7-3" name="q7" value="3">
+                    <label for="q7-3">3</label>
+                    <div class="label3">Neither Agree nor Disagree</div>
+                    <input type="radio" id="q7-4" name="q7" value="4">
+                    <label for="q7-4">4</label>
+                    <div class="label4">Agree</div>
+                    <input type="radio" id="q7-5" name="q7" value="5">
+                    <label for="q7-5">5</label>
+                    <div class="label5">Strongly Agree</div>
+                </div>
+            </div>
+            <div class="question">
+                <label for="q2">Q.8 Feedback provided on Students' progress.</label>
+                <div class="rating-container">
+                    <input type="radio" id="q8-1" name="q8" value="1">
+                    <label for="q8-1">1</label>
+                    <div class="label1">Strongly Disagree</div>
+                    <input type="radio" id="q8-2" name="q8" value="2">
+                    <label for="q8-2">2</label>
+                    <div class="label2">Disagree</div>
+                    <input type="radio" id="q8-3" name="q8" value="3">
+                    <label for="q8-3">3</label>
+                    <div class="label3">Neither Agree nor Disagree</div>
+                    <input type="radio" id="q8-4" name="q8" value="4">
+                    <label for="q8-4">4</label>
+                    <div class="label4">Agree</div>
+                    <input type="radio" id="q8-5" name="q8" value="5">
+                    <label for="q8-5">5</label>
+                    <div class="label5">Strongly Agree</div>
+                </div>
+            </div>
+            <div class="question">
+                <label for="q2">Q.9 Willingness to offer help and advice to students.</label>
+                <div class="rating-container">
+                    <input type="radio" id="q9-1" name="q9" value="1">
+                    <label for="q9-1">1</label>
+                    <div class="label1">Strongly Disagree</div>
+                    <input type="radio" id="q9-2" name="q9" value="2">
+                    <label for="q9-2">2</label>
+                    <div class="label2">Disagree</div>
+                    <input type="radio" id="q9-3" name="q9" value="3">
+                    <label for="q9-3">3</label>
+                    <div class="label3">Neither Agree nor Disagree</div>
+                    <input type="radio" id="q9-4" name="q9" value="4">
+                    <label for="q9-4">4</label>
+                    <div class="label4">Agree</div>
+                    <input type="radio" id="q9-5" name="q9" value="5">
+                    <label for="q9-5">5</label>
+                    <div class="label5">Strongly Agree</div>
+                </div>
+            </div>
+            <div class="question">
+                <label for="q2">Q.10 What was your overall experience?</label>
+                <div class="rating-container">
+                    <input type="radio" id="q10-1" name="q10" value="1">
+                    <label for="q10-1">1</label>
+                    <div class="label1">Strongly Disagree</div>
+                    <input type="radio" id="q10-2" name="q10" value="2">
+                    <label for="q10-2">2</label>
+                    <div class="label2">Disagree</div>
+                    <input type="radio" id="q10-3" name="q10" value="3">
+                    <label for="q10-3">3</label>
+                    <div class="label3">Neither Agree nor Disagree</div>
+                    <input type="radio" id="q10-4" name="q10" value="4">
+                    <label for="q10-4">4</label>
+                    <div class="label4">Agree</div>
+                    <input type="radio" id="q10-5" name="q10" value="5">
+                    <label for="q10-5">5</label>
+                    <div class="label5">Strongly Agree</div>
+                </div>
+            </div>
+            <div class="question">
+                <label for="suggestions">Please provide your suggestions/comments if any to improve the teaching
+                    learning process:</label>
+                <textarea id="suggestions" name="suggestions" rows="3"></textarea>
+            </div>
+            <button class="submit" type="submit">Submit Feedback</button>
+        </form>
+    </div>
+    <script src="student.js"></script>
+</body>
+
+</html>
