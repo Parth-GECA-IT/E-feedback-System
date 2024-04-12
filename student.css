@@ -2,7 +2,7 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 20px;
-    width: 65vw;
+    /* width: 65vw; */
     margin: 0 auto;
     /* background-color: #000; */
 
@@ -21,7 +21,6 @@ body {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 30px 8px black;
-    /* box-shadow: 0 0 30px 8px rgb(255, 255, 255); */
 }
 
 .feedback-form h1 {
@@ -91,39 +90,22 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
+.labels {
+    display: flex;
+    justify-content: space-around;
+}
 
 .label1,
 .label2,
 .label3,
 .label4,
 .label5 {
-    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 13rem;
 }
 
-.label1 {
-    top: 4vh;
-    left: 3vw;
-}
-
-.label2 {
-    top: 4vh;
-    left: 17vw;
-}
-
-.label3 {
-    top: 4vh;
-    left: 30vw;
-}
-
-.label4 {
-    top: 4vh;
-    left: 42vw;
-}
-
-.label5 {
-    top: 4vh;
-    left: 54vw;
-}
 
 label {
     font-weight: bold;
@@ -189,8 +171,9 @@ label {
 }
 
 .submit:hover {
-    background-color: #00915c;
+    background-color: #005c3a;
     color: white;
     box-shadow: 0 0 12px rgb(97, 97, 97);
     cursor: pointer;
+    scale: 1.2;
 }
