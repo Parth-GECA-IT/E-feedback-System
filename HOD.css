@@ -111,7 +111,7 @@ body .caption {
 .good:nth-child(odd),
 .veryg:nth-child(even),
 .excellent:nth-child(odd) {
-    background-color: rgb(185, 255, 226);
+    background-color: rgb(112, 255, 195);
 }
 
 .serialno{
